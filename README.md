@@ -39,7 +39,7 @@ After running the hill climbing algorithm thousands of times, a clear patten eme
 ### English 
 Designing for other or multiple languages would require an entirely different dataset for letter and bigram frequencies, potentially even completely different character sets. I'm not even sure if multilanguage arrangements are viable outside of closely related language families.
 
-### Not Ortholinear
+### Not Quite For Ortholinear or Similar Keyboards
 This keyboard was designed with the standard staggered layout in mind. This especially applies to the middle key of the bottom row, equidistant from both index fingers, which is considered by the evaluation algorithm to be usable by *either* index finger in any context.
 
 However, I did test setting that key to left-hand only (as would be in ortholinear or separated "ergonomic" keyboards), and the algorithm actually gave the same layout, just with a different score, so it's possible this layout works with ortholinear keybaords as well. The only real issue I found with it is `CT` and `TC` combinations, which you *could* potentially roll-type by using the middle finger on `T`, but whether you're okay with that is up to you.

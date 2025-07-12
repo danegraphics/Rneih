@@ -45,10 +45,10 @@ This keyboard was designed with the standard staggered layout in mind. This espe
 However, I did test setting that key to left-hand only (as would be in ortholinear or separated "ergonomic" keyboards), and the algorithm actually gave the same layout, just with a different score, so it's possible this layout works with ortholinear keybaords as well. The only real issue I found with it is `CT` and `TC` combinations, which you *could* potentially roll-type by using the middle finger on `T`, but whether you're okay with that is up to you.
 
 ### Not For Smartphones
-Designing for smartphones is an entirely different challenge. Rolling is a terrible idea for a phone, and alternating would be significantly preferable, among other considerations like thumb hover position and so on.
+Designing for smartphones is an entirely different challenge. Rolling obviously doesn't work on a smartphone keyboard, so alternating is significantly preferable, among other considerations like thumb hover position and so on.
 
 ### No Thumb Keys
-Given the constraint to stay within the standard alhpabet key region, thumbkeys were not considered.
+Given the constraint to stay within the standard alphabet key region, thumbkeys were not considered.
 
 ### Personal Biases
 Obviously, my personal biases are baked into this layout. The finger strain weights are manually calibrated to fit my personal experience with which keys are easier or harder to press. In fact, all property weights are calibrated based on what properties I felt were more important or resulted in the most comfortable typing experience.

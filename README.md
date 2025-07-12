@@ -32,7 +32,7 @@ After many, *many* iterations (from thousands of randomized starting points to a
 
 A final manual swap of the `/` and `'` keys was done primarily to minimize accidentally hitting the `enter` key when using apostrophes, a frequent problem in chat appliations. Also it's just a better placement given how frequently the `'` key is used.
 
-After running the hill climbing algorithm thousands of times, a clear patten emerged among every local minimum layout. In more than half of all candidates, the right hand home row was `RNEIH`, hence the name of the layout.
+After running the hill climbing algorithm thousands of times, a clear patten emerged among the local minimum layouts. In more than half of all candidates, the right hand home row was `RNEIH`, hence the name of the layout.
 
 # Limitations
 

@@ -24,7 +24,7 @@ With the character region decided, a hill climbing algorithm, weighted by indivi
 - Minimize jumping from top-to-bottom rows (and vice versa) on the same hand.
 - Minimize switching hands. (prefer rolling)
 - When a middle column character is being used, prefer to switch hands instead of rolling.
-- When rolling (hitting keys with the same hand), roll from pinky-to-index more often than index-to-pinky.
+- When rolling (hitting keys with the same hand), roll inward more often than outward.
 - When two keys are hit by the same hand, the outer key should be above or in-line with the inner key.
 - Because punctuation is on the right hand, prefer to end words on the left hand.
 

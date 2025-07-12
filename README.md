@@ -22,10 +22,10 @@ With the character region decided, a hill climbing algorithm, weighted by indivi
 - More common characters on stronger fingers and easier to reach keys.
 - Minimize using the same finger twice in a row on different keys.
 - Minimize jumping from top-to-bottom rows (and vice versa) on the same hand.
-- Minimize switching hands. (prefer rolling)
+- Minimize switching hands.
+- When using the same hand, prefer rolling inward more often than outward.
 - When a middle column character is being used, prefer to switch hands instead of rolling.
-- When rolling (hitting keys with the same hand), roll inward more often than outward.
-- When two keys are hit by the same hand, the outer key should be above or in-line with the inner key.
+- When two keys are hit by the same hand, the outer key should be on a higher row or in-line with the inner key.
 - Because punctuation is on the right hand, prefer to end words on the left hand.
 
 After many, *many* iterations (from thousands of randomized starting points to avoid local minimums), various tweaks to weights, and manual testing of several resulting layouts, the winning layout is as seen above.

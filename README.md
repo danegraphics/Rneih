@@ -63,6 +63,6 @@ Given how rarely the right pinky is used on a qwerty layout, I imagine it can be
 ### Personal Biases
 Obviously, my personal biases are baked into this layout. The finger strain weights are manually calibrated to fit my personal experience with which keys are easier or harder to press. In fact, all property weights were manually calibrated based on what I felt was more important or resulted in the most comfortable typing experience for me.
 
-There are many other possibilities for what properties should be considered or weighted when evaluating a keyboard layout. For example: Should pinky-to-ring combinations be discouraged? Is the top row preferable to the bottom row? On which fingers? Are adjacent finger combos better or worse than separated finger combos? And so on...
+There are many other possibilities for what properties should be considered or weighted when evaluating a keyboard layout. For example: Should pinky-to-ring combinations be discouraged? Is the top row preferable to the bottom row? On which fingers? Are adjacent finger combos better or worse than separated finger combos? Should I balance how often each finger is used? And so on...
 
 The properties I selected for are simply the ones that I personally care about and was able to identify while designing the evaluation script.

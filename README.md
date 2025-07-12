@@ -8,9 +8,9 @@ Rnieh (pronounced "Renée") is an optimized keyboard layout designed for minimal
 Written out:
 
 ```
-XBWGVJQUY;[]
-SOATDRNEIH/
-ZKFPCLM,.'
+X B W G V J Q U Y ; [ ]
+ S O A T D R N E I H /
+  Z K F P C L M , . '
 ```
 
 # Design Considerations

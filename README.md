@@ -18,7 +18,7 @@ The keyboard follows the Colemak philosophy of keeping alphabet keys in the same
 
 With the character region decided, a hill climbing algorithm, weighted by individual character and bigram frequencies in English, was used to find layouts that optimized for the following properties:
 
-- Minimal finger travel.
+- Minimal finger travel/strain.
 - More common characters on stronger fingers and easier to reach keys.
 - Minimize using the same finger twice in a row on different keys.
 - Minimize jumping from top-to-bottom rows (and vice versa) on the same hand.
@@ -33,3 +33,24 @@ After many, *many* iterations (from thousands of randomized starting points to a
 A final manual swap of the `/` and `'` keys was done primarily to minimize accidentally hitting the `enter` key when using apostrophes, a frequent problem in chat appliations. Also it's just a better placement given how frequently the `'` key is used.
 
 After running the hill climbing algorithm thousands of times, a clear patten emerged among every local minimum layout. In more than half of all candidates, the right hand home row was `RNEIH`, hence the name of the layout.
+
+# Limitations
+
+### English 
+Designing for other or multiple languages would require an entirely different dataset for letter and bigram frequencies, potentially even completely different character sets. I'm not even sure if multilanguage arrangements are viable outside of closely related language families.
+
+### Not Ortholinear
+This keyboard was designed with the standard staggered layout in mind. This especially applies to the middle key of the bottom row, equidistant from both index fingers, which is considered by the evaluation algorithm to be usable by *either* index finger in any context.
+
+However, I did test setting that key to left-hand only (as would be in ortholinear or separated "ergonomic" keyboards), and the algorithm actually gave the same layout, just with a different score, so it's possible this layout works with ortholinear keybaords as well. The only real issue I found with it is `CT` and `TC` combinations, which you *could* potentially roll-type by shifting the middle finger over as well, but whether you're okay with that is up to you.
+
+### Not For Smartphones
+Designing for smartphones is an entirely different challenge. Rolling is a terrible idea for a phone, and alternating would be significantly preferable, among other considerations like thumb hover position and so on.
+
+### No Thumb Keys
+Given the constraint to stay within the standard alhpabet key region, thumbkeys were not considered.
+
+### Personal Biases
+Obviously, my personal biases are baked into this layout. The finger strain weights are manually calibrated to fit my personal experience with which keys are easier or harder to press. In fact, all property weights are calibrated based on what properties I felt were more important or resulted in the most comfortable typing experience. For example 
+
+There are many other possibilities for what properties should be considered or weighted when evaluating a keyboard layout. The ones listed above are simply the ones that I personally care about and was able to identify while designing the evaluation script.

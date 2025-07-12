@@ -6,7 +6,7 @@ Rnieh (pronounced "Renée", which means "Reborn") is an optimized keyboard layou
 # Design considerations
 The keyboard follows the Colemak philosophy of keeping alphabet keys in the same region as qwerty, but swapping the two right pinky keys to put a character on the home row and the `;` key above it.
 
-With that character region decided, a hill climbing algorithm, weighted by individual character and bigram frequencies, was used to find layouts that optimized for the following properties:
+With the character region decided, a hill climbing algorithm, weighted by individual character and bigram frequencies, was used to find layouts that optimized for the following properties:
 
 - Minimal finger travel.
 - More common characters on stronger fingers and easier to reach keys.

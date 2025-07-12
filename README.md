@@ -51,6 +51,6 @@ Designing for smartphones is an entirely different challenge. Rolling obviously 
 Given the constraint to stay within the standard alphabet key region, thumbkeys were not considered.
 
 ### Personal Biases
-Obviously, my personal biases are baked into this layout. The finger strain weights are manually calibrated to fit my personal experience with which keys are easier or harder to press. In fact, all property weights are calibrated based on what properties I felt were more important or resulted in the most comfortable typing experience.
+Obviously, my personal biases are baked into this layout. The finger strain weights are manually calibrated to fit my personal experience with which keys are easier or harder to press. In fact, all property weights were manually calibrated based on what I felt was more important or resulted in the most comfortable typing experience for me.
 
 There are many other possibilities for what properties should be considered or weighted when evaluating a keyboard layout. The ones listed above are simply the ones that I personally care about and was able to identify while designing the evaluation script.

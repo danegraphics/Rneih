@@ -44,6 +44,9 @@ This keyboard was designed with the standard staggered layout in mind. This espe
 
 However, I did test setting that key to left-hand only (as would be in ortholinear or separated "ergonomic" keyboards), and the algorithm actually gave the same layout, just with a different score, so it's possible this layout works with such keybaords as well. The only real issue I found with it is `CT` and `TC` combinations, which you *could* potentially roll-type by using the middle finger on `T`, but whether you're okay with that is up to you.
 
+### Punctuation Heavy Right Hand
+It felt awkward for me to stuff punctuation in the middle of characters, and I actually enjoy the punctuation where it is now, so I committed to the same alpha character region as Colemak. Though I may consider other punctuation layours in the future, especially if I get into more ergonomic layouts.
+
 ### Not For Smartphones
 Designing for smartphones is an entirely different challenge. Rolling obviously doesn't work on a smartphone keyboard, so alternating is significantly preferable, among other considerations like thumb hover position and so on.
 

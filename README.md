@@ -42,7 +42,7 @@ Designing for other or multiple languages would require an entirely different da
 ### Not Ortholinear
 This keyboard was designed with the standard staggered layout in mind. This especially applies to the middle key of the bottom row, equidistant from both index fingers, which is considered by the evaluation algorithm to be usable by *either* index finger in any context.
 
-However, I did test setting that key to left-hand only (as would be in ortholinear or separated "ergonomic" keyboards), and the algorithm actually gave the same layout, just with a different score, so it's possible this layout works with ortholinear keybaords as well. The only real issue I found with it is `CT` and `TC` combinations, which you *could* potentially roll-type by shifting the middle finger over as well, but whether you're okay with that is up to you.
+However, I did test setting that key to left-hand only (as would be in ortholinear or separated "ergonomic" keyboards), and the algorithm actually gave the same layout, just with a different score, so it's possible this layout works with ortholinear keybaords as well. The only real issue I found with it is `CT` and `TC` combinations, which you *could* potentially roll-type by using the middle finger on `T`, but whether you're okay with that is up to you.
 
 ### Not For Smartphones
 Designing for smartphones is an entirely different challenge. Rolling is a terrible idea for a phone, and alternating would be significantly preferable, among other considerations like thumb hover position and so on.

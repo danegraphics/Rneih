@@ -1,7 +1,7 @@
 # Rneih
 Rnieh (pronounced "Renée", which means "Reborn") is an optimized keyboard layout designed for minimal strain and comfortable typing.
 
-<img width="833" height="288" alt="Good Keyboard FINAL copy" src="https://github.com/user-attachments/assets/e6f14bdf-22cc-4fab-b19c-e4ec30f04059" />
+<img width="675" height="191" alt="Rneih Keyboard Layout" src="https://github.com/user-attachments/assets/4e809e14-4701-4991-9284-a5fe8e79858e" />
 
 Written out:
 ```

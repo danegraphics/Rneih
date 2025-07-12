@@ -16,7 +16,7 @@ ZKFPCLM,.'
 # Design Considerations
 The keyboard follows the Colemak philosophy of keeping alphabet keys in the same region as qwerty, but swapping the two right pinky keys to put an alpha character on the home row and the `;` key above it.
 
-With the character region decided, a hill climbing algorithm, weighted by individual character and bigram frequencies in english, was used to find layouts that optimized for the following properties:
+With the character region decided, a hill climbing algorithm, weighted by individual character and bigram frequencies in English, was used to find layouts that optimized for the following properties:
 
 - Minimal finger travel.
 - More common characters on stronger fingers and easier to reach keys.

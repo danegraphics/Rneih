@@ -50,6 +50,9 @@ Designing for smartphones is an entirely different challenge. Rolling obviously 
 ### No Thumb Keys
 Given the constraint to stay within the standard alphabet key region, thumbkeys were not considered.
 
+### Keyboard Shortcuts
+Unless it uses `Z`, `M`, `,`, or `.`, keyboard shortcuts are going to be different. While I did consider Colemak's philosophy of trying to keep the important shortcuts in the same place, I felt that constraint would be too limiting for my goals here. However, I may revisit that idea in the future.
+
 ### Personal Biases
 Obviously, my personal biases are baked into this layout. The finger strain weights are manually calibrated to fit my personal experience with which keys are easier or harder to press. In fact, all property weights were manually calibrated based on what I felt was more important or resulted in the most comfortable typing experience for me.
 

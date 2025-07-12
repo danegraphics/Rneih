@@ -27,6 +27,7 @@ With the character region decided, a hill climbing algorithm, weighted by indivi
 - When a middle column character is being used, prefer to switch hands instead of rolling.
 - When two keys are hit by the same hand, the outer key should be on a higher row or in-line with the inner key.
 - Because punctuation is on the right hand, prefer to end words on the left hand.
+- The center key of the bottom row can be hit by either index finger, not just the left.
 
 After many, *many* iterations (from thousands of randomized starting points to avoid local minimums), various tweaks to weights, and manual testing of several resulting layouts, the winning layout is as seen above.
 
